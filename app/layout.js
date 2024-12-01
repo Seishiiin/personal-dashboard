@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="fr">
-            <body className={`${globalNextFont.className} m-0 p-0 antialiased`}>
+            <body className={`${globalNextFont.className} antialiased`}>
                 {children}
             </body>
         </html>
