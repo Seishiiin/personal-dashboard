@@ -1,6 +1,3 @@
-"use client";
-
-import { useState, useEffect } from "react";
 import TemplateWidget from "@/components/TemplateWidget";
 
 export default function QuotesWidget() {
@@ -28,7 +25,6 @@ export default function QuotesWidget() {
     return (
         <TemplateWidget emoji={"📜"} title={"Citations"}>
             <div className={"text-lg font-light"}>
-                {/* Une citation aléatoire et son auteur */}
                 {quotes.fr[Math.floor(Math.random() * quotes.fr.length)].quote}
             </div>
         </TemplateWidget>
